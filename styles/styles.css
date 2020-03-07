@@ -1,0 +1,76 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.header-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1540px;
+    margin: 0 auto;
+}
+
+.logo-holder img {
+    height: 100px;
+}
+
+.menu-holder {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-holder a {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    padding-left: 20px;
+    
+}
+
+.menu-holder a:hover {
+
+}
+
+.banner {
+    min-height: 800px;
+    height: 100vh;
+}
+
+.seccao {
+    height: 700px;
+    width: 100%;
+}
+
+.banner .textos-holder {
+    position: absolute;
+    width: 70%;
+    max-width: 600px;
+    height: 200px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.titulo-pagina {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #f0d504;
+    color: black;
+}
+
+.subtitulo-pagina {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
